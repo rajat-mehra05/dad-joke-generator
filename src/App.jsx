@@ -7,7 +7,7 @@ const App = () => {
   const queryClient = new QueryClient();
 
   return (
-    <div>
+    <div className="bg-neutral-100 min-h-screen">
       <QueryClientProvider client={queryClient}>
         <Hero />
         <Jokes />

@@ -10,7 +10,7 @@ const Joke = ({ data }) => {
         {data}
       </div>
       <button
-        className="text-white bg-blue-600 p-2 rounded"
+        className="text-white bg-green-700 p-2 rounded"
         onClick={() => client.invalidateQueries("joke")}
       >
         {" "}
