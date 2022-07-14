@@ -10,11 +10,11 @@ const Joke = ({ data }) => {
         {data}
       </div>
       <button
-        className="text-white bg-green-700 p-2 rounded"
+        className="text-white bg-green-600 hover:bg-green-900 p-2 rounded"
         onClick={() => client.invalidateQueries("joke")}
       >
         {" "}
-        Generat new Joke{" "}
+        Generate new joke{" "}
       </button>
     </div>
   );
