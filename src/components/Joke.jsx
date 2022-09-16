@@ -13,8 +13,7 @@ const Joke = ({ data }) => {
         className="text-white bg-green-600 hover:bg-green-900 p-2 rounded"
         onClick={() => client.invalidateQueries("joke")}
       >
-        {" "}
-        Generate new joke{" "}
+        Generate new joke
       </button>
     </div>
   );
